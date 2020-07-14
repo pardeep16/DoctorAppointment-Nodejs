@@ -1,12 +1,12 @@
 var mysql=require('mysql');
 
 var pool=mysql.createPool({
-	host	: '127.0.0.1',
-	user	:  'root',
+	host	: process.env.DB_URL,
+	user	:  process.env.DB_USER,
     // Use own credentials pls
 //	password	: 'acedata@mysql',
-    password : 'pardeep16mysql@',
-	database	: 'hospital_db'
+    password : process.env.DB_SECURE_KEY,
+	database	: process.env.DB_SCHEMA
 
 });
 
