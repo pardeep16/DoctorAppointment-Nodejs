@@ -17,7 +17,7 @@ var getConnection = function (cb) {
         //if(err) throw err;
         //pass the error to the cb instead of throwing it
         if(err) {
-            //console.log(err);
+            console.log(err);
           return cb(err);
         }
         cb(null, connection);
