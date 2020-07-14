@@ -16,10 +16,12 @@ var getConnection = function (cb) {
 
         //if(err) throw err;
         //pass the error to the cb instead of throwing it
+        console.log("DB URL ",process.env.DB_URL);
         if(err) {
             console.log(err);
           return cb(err);
         }
+        console.log("DB connected successfully!");
         cb(null, connection);
     });
 };
