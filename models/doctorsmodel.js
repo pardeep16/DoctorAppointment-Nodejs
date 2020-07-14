@@ -74,7 +74,7 @@ var getDepartments=function(cb){
 
 	db(function(err,conn){
 		if(err){
-			conn.release();
+			//conn.release();
 			cb({"success":false,"msg":"Connection Error"},null);
 		}
 		else{
