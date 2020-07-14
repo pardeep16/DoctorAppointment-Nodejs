@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'nodemailer2.5.0' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose install initial load of I:\node\tasks\openshift\work\healthapp\package.json
+5 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\body-parser\package.json
+6 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\cookie-parser\package.json
+7 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\date-and-time\package.json
+8 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\debug\package.json
+9 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\ejs\package.json
+10 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\express\package.json
+11 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\html-pdf\package.json
+12 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\jade\package.json
+13 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\jwt-simple\package.json
+14 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\moment\package.json
+15 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\morgan\package.json
+16 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\mysql\package.json
+17 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\nodemailer\package.json
+18 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\nodemon\package.json
+19 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\passport\package.json
+20 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\passport-jwt\package.json
+21 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\passport-oauth\package.json
+22 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\passport-oauth2\package.json
+23 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\request\package.json
+24 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\serve-favicon\package.json
+25 verbose installManyTop reading scoped package data from I:\node\tasks\openshift\work\healthapp\node_modules\socket.io\package.json
+26 info package.json passport-oauth@1.0.0 No license field.
+27 verbose readDependencies loading dependencies from I:\node\tasks\openshift\work\healthapp\package.json
+28 silly cache add args [ 'nodemailer2.5.0', null ]
+29 verbose cache add spec nodemailer2.5.0
+30 silly cache add parsed spec Result {
+30 silly cache add   raw: 'nodemailer2.5.0',
+30 silly cache add   scope: null,
+30 silly cache add   name: 'nodemailer2.5.0',
+30 silly cache add   rawSpec: '',
+30 silly cache add   spec: 'latest',
+30 silly cache add   type: 'tag' }
+31 silly addNamed nodemailer2.5.0@latest
+32 verbose addNamed "latest" is being treated as a dist-tag for nodemailer2.5.0
+33 info addNameTag [ 'nodemailer2.5.0', 'latest' ]
+34 silly mapToRegistry name nodemailer2.5.0
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry http://registry.npmjs.org/
+37 silly mapToRegistry uri http://registry.npmjs.org/nodemailer2.5.0
+38 verbose addNameTag registry:http://registry.npmjs.org/nodemailer2.5.0 not in flight; fetching
+39 verbose request uri http://registry.npmjs.org/nodemailer2.5.0
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 12:29:38 PM
+42 verbose request id 9ccdc0c14b1713e6
+43 http request GET http://registry.npmjs.org/nodemailer2.5.0
+44 http 404 http://registry.npmjs.org/nodemailer2.5.0
+45 verbose headers { 'content-type': 'application/json',
+45 verbose headers   'cache-control': 'max-age=0',
+45 verbose headers   'content-length': '2',
+45 verbose headers   'accept-ranges': 'bytes',
+45 verbose headers   date: 'Sun, 03 Sep 2017 06:59:43 GMT',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   age: '0',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'x-served-by': 'cache-sin18032-SIN',
+45 verbose headers   'x-cache': 'MISS',
+45 verbose headers   'x-cache-hits': '0',
+45 verbose headers   'x-timer': 'S1504421982.835461,VS0,VE2057',
+45 verbose headers   vary: 'Accept-Encoding' }
+46 silly get cb [ 404,
+46 silly get   { 'content-type': 'application/json',
+46 silly get     'cache-control': 'max-age=0',
+46 silly get     'content-length': '2',
+46 silly get     'accept-ranges': 'bytes',
+46 silly get     date: 'Sun, 03 Sep 2017 06:59:43 GMT',
+46 silly get     via: '1.1 varnish',
+46 silly get     age: '0',
+46 silly get     connection: 'keep-alive',
+46 silly get     'x-served-by': 'cache-sin18032-SIN',
+46 silly get     'x-cache': 'MISS',
+46 silly get     'x-cache-hits': '0',
+46 silly get     'x-timer': 'S1504421982.835461,VS0,VE2057',
+46 silly get     vary: 'Accept-Encoding' } ]
+47 verbose stack Error: Registry returned 404 for GET on http://registry.npmjs.org/nodemailer2.5.0
+47 verbose stack     at makeError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+47 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+47 verbose stack     at Request._callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+47 verbose stack     at Request.self.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:199:22)
+47 verbose stack     at emitTwo (events.js:87:13)
+47 verbose stack     at Request.emit (events.js:172:7)
+47 verbose stack     at Request.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1036:10)
+47 verbose stack     at emitOne (events.js:82:20)
+47 verbose stack     at Request.emit (events.js:169:7)
+47 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:963:12)
+48 verbose statusCode 404
+49 verbose pkgid nodemailer2.5.0
+50 verbose cwd I:\node\tasks\openshift\work\healthapp
+51 error Windows_NT 10.0.14393
+52 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "nodemailer2.5.0"
+53 error node v4.4.1
+54 error npm  v2.14.20
+55 error code E404
+56 error 404 Registry returned 404 for GET on http://registry.npmjs.org/nodemailer2.5.0
+56 error 404
+56 error 404 'nodemailer2.5.0' is not in the npm registry.
+56 error 404 You should bug the author to publish it (or use the name yourself!)
+56 error 404 It was specified as a dependency of 'healthapp'
+56 error 404
+56 error 404 Note that you can also install from a
+56 error 404 tarball, folder, http url, or git url.
+57 verbose exit [ 1, true ]

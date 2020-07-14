@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Update counter
+	</title>
+</head>
+<body>
+<form action="/apiv1/opd/updatecounter" method="post">
+<label>
+		OPD ID
+	</label><br>
+	<input type="number" name="opd_id" placeholder="OPD ID" required><br>
+	<label>
+		Patient id
+	</label><br>
+	<input type="number" name="patient_id" placeholder="Patient id" required><br>
+	<label>
+		Doctor Name
+	</label><br>
+	<input type="text" name="doc_name" placeholder="Doc name" required><br>
+<label>
+		Patient name
+	</label><br>
+	<input type="text" name="patient_name" placeholder="Patient name" required><br>
+	<label>
+		Doc id
+	</label><br>
+	<input type="number" name="doc_id" placeholder="Doctor id" required><br>
+
+<label>
+		Specialization
+	</label><br>
+	<input type="text" name="spec" placeholder="Specialization" required><br>
+<label>
+		OPD token
+	</label><br>
+	<input type="number" name="opd_token" placeholder="token" required><br>
+<!-- <label>
+		Doctor Active
+	</label><br>
+	<input type="number" name="active" placeholder="Active" required><br><label>
+		Doctor Discount
+	</label><br>
+	<input type="number" name="discount" placeholder="Discount" required><br>
+ -->
+	<BUTTON>
+		Submit
+	</BUTTON>
+</form>
+</body>
+</html>
