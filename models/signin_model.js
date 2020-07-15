@@ -256,7 +256,8 @@ var addNumberModel=function(data,cb){
 		var phone=data.phone;
 
 		var insertMob='Update user_login SET user_phone='+mysql.escape(phone)+" where user_id="+mysql.escape(user_id);
-	getConnection(function(err,connection){
+	   console.log("Add Number :: "+insertMob);
+		getConnection(function(err,connection){
 		console.log("get connection");
 		if(err){
 			//console.log(err);
