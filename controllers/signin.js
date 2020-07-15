@@ -76,8 +76,8 @@ var addPhoneNumber=function(req,res){
 				console.log(result11);
 				var result=result11.Status;
 				console.log("result "+result);
-				console.log("check condition ",result==='Success');
-				if(result==='Success'){
+				console.log(result=='Success');
+				if(result=='Success'){
 					console.log("Inside method");
 					signin.addNumberModel(data,function(errorr,results){
 						if(errorr){
