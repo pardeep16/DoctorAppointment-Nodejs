@@ -27,7 +27,7 @@ passport.use('local',new OAuth2Strategy({
 display();
 */
 /*var jwt_simple=require('jwt-simple');
-var secret="pk.raswant@gmail.com";
+var secret="";
 
 //var secret = Buffer.from('fe1a1915a379f3be5394b64d14794932', 'hex');
 var payload={
